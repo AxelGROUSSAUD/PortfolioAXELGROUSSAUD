@@ -1,0 +1,30 @@
+#vt {
+padding-top:65px;
+}
+
+.def {
+list-style:none;
+}
+
+.article {
+text-align:justify;
+}
+
+#ML {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:80px;
+	margin-left:-8px;
+	margin-right:-8px;
+	margin-bottom:-20px;
+	background-color:gold;
+	
+}
+#ml {
+	text-decoration:none;
+	color:black;
+}
+.veille {
+	width: 50%;
+}
