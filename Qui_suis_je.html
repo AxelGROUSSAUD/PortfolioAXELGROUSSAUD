@@ -3,12 +3,25 @@
 <head>
 <meta charset="utf-8" />
 <link rel="stylesheet" href="CSS/Qui_suis_je.css" />
+<link rel="stylesheet" href="CSS/menu.css" />
+<link rel="stylesheet" href="CSS/Mentions_legales.css" />
 <title>Qui suis-je ? </title>
 </head>
 <body>
-<div>
-<?php include("menu.php");?>
+<div id="menu">  
+<nav id="navigation">
+<ul id="listenonord">
+<li class="listemenu"><a href="index.html" class="lienpages"><button class="onglet">Accueil</button></a></li>
+<li class="listemenu"><a href="Qui_suis_je.html" class="lienpages"><button class="onglet">Qui suis-je ?</button></a></li>
+<li class="listemenu"><a href="Mes_competences.html" class="lienpages"><button class="onglet">Compétences</button></a></li>
+<li class="listemenu"><a href="Mes_realisations.html" class="lienpages"><button class="onglet">Réalisations</button></a></li>
+<li class="listemenu"><a href="Mes_passions.html" class="lienpages"><button class="onglet">Passions</button></a></li>
+<li class="listemenu"><a href="Veille_technologique.html" class="lienpages"><button class="onglet">Veille technologique</button></a></li>
+<li class="listemenu"><a href="Contact.html" class="lienpages"><button class="onglet">Contact</button></a></li>
+</ul>
+</nav>
 </div>
+<div id="yo">
 <div id="perso">
 <p>
 Bonjour et bienvenue sur mon Portfolio!<br><br>  
@@ -18,7 +31,8 @@ J’aime  également faire des randonnées à pied, en vélos et en roller, hist
 Je suis créatif, persévérant et organisé. <br><br>
  Je vous invite à mieux me connaître en visitant mes pages… 
 </p> 
-</div><br>
+</div>
+</div>
 <!--
 <table id="tabperso">
 <tr>
@@ -33,8 +47,8 @@ Je suis créatif, persévérant et organisé. <br><br>
 </tr>
 </table>
 -->
-<div>
-<?php include("Mentions_legales_baspage.php");?>
+<div id="ML">
+<a href="Mentions_legales_page.html" id="ml"> Mentions légales</a>
 </div>
 
 </body>

@@ -3,12 +3,25 @@
 <head>
 <meta charset="utf-8" />
 <link rel="stylesheet" href="CSS/competences.css" />
+<link rel="stylesheet" href="CSS/menu.css" />
+<link rel="stylesheet" href="CSS/Mentions_legales.css" />
 <title>Compétences</title>
 </head>
 <body>
-<div>
-<?php include("menu.php");?>
+<div id="menu">  
+<nav id="navigation">
+<ul id="listenonord">
+<li class="listemenu"><a href="index.html" class="lienpages"><button class="onglet">Accueil</button></a></li>
+<li class="listemenu"><a href="Qui_suis_je.html" class="lienpages"><button class="onglet">Qui suis-je ?</button></a></li>
+<li class="listemenu"><a href="Mes_competences.html" class="lienpages"><button class="onglet">Compétences</button></a></li>
+<li class="listemenu"><a href="Mes_realisations.html" class="lienpages"><button class="onglet">Réalisations</button></a></li>
+<li class="listemenu"><a href="Mes_passions.html" class="lienpages"><button class="onglet">Passions</button></a></li>
+<li class="listemenu"><a href="Veille_technologique.html" class="lienpages"><button class="onglet">Veille technologique</button></a></li>
+<li class="listemenu"><a href="Contact.html" class="lienpages"><button class="onglet">Contact</button></a></li>
+</ul>
+</nav>
 </div>
+<!--
 <div id="competences">
 <ul>
 <li id="uo"><button>Support système des accès utilisateurs</button></li>
@@ -70,9 +83,11 @@ Notepad++ <br>
 Wireshark </div>
 </ul>
 </div>
-<div>
-<?php include("Mentions_legales_baspage.php");?>
+-->
+<div id="ML">
+<a href="Mentions_legales_page.html" id="ml"> Mentions légales</a>
 </div>
+
 <script type="text/javascript" src="JS/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="JS/competences.js"></script>
 </body>

@@ -4,7 +4,9 @@
 	align-items:center;
 	height:80vh;
 	margin-top:-10vh;
-	
+	background-color:#132959;
+	margin-left:-8px;
+	margin-right:-8px;
 }
 
 #msgprev {
@@ -12,26 +14,15 @@
 	justify-content:center;
 	align-items:center;
 	height:30vh;
-}
-
-#ML {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	height:80px;
+	background-color:#132959;
 	margin-left:-8px;
 	margin-right:-8px;
-	margin-bottom : -20px;
-	margin-top:-8px;
-	background-color:gold;
-	
 }
-#ml {
-	text-decoration:none;
-	color:black;
-}
+
+
 #ici {
-	color:blue;
+	color:white;
+	text-decoration:none;
 }
 #attention {
 	font-size:20px;
@@ -40,16 +31,29 @@
 	animation-iteration-count:infinite;
 	animation-name:pop;
 }
+
+p {
+	color : #5EB6DD;
+}
+
+#cv {
+	height: 40px;
+	width:130px;
+}
+
 @keyframes pop {
 	
 	0% {
 		color:red;
+		
 	}
 	50% {
-		color :white;
+		color :#132959;
+		
 	}
 	
 	100% {
 		color :red;
+		
 	}
 }
