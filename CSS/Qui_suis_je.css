@@ -10,20 +10,13 @@
 	
 }
 
-#infos {
-	border : 5px solid black;
+#presentation {
+	background-color:#FC7F3C;
+	margin-left:-8px;
+	margin-right:-8px;
 }
 
-#adresse {
-	text-align :center;
-	margin-left:25%;
-	margin-right:25%;
-}
 
-#tabperso {
-	margin-left:-9px;
-	margin-right:-10px;
-}
 
 
 

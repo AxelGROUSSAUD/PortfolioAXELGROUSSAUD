@@ -1,12 +1,36 @@
-#yo {
-padding-top:200px;
+.listesousmenu{
+    display: inline;
+    list-style: none;
+    margin-right: 6px;
+     
 }
-#wesh {
-margin-top:65px;
+.sous-onglet{
+     height:30px;
+	 border:none;
+     width:100%;
+     margin-right: -4px;
+	 background-color:#000000;
+	 color:#ffffff;
 }
-#test {
-display:none;
+
+
+.partiepages{
+    display: inline-block;
+    width:36%;
+    margin-left: -40px;
+    
 }
-#competences {
-	padding-top: 60px;
+
+#sousmenu{
+    
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    cursor: default;
+}
+
+.listesousmenu :hover {
+	background-color:#ffffff;
+	color:#000000;
+	
 }

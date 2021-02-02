@@ -1,39 +1,25 @@
 #bienvenue {
-	display :flex;
-	justify-content:center;
-	align-items:center;
-	height:80vh;
-	margin-top:-10vh;
-	background-color:#132959;
-	margin-left:-8px;
-	margin-right:-8px;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-color: #132959;
+	margin-left: -8px;
+	margin-right: -8px;
 }
 
-#msgprev {
-	display :flex;
-	justify-content:center;
-	align-items:center;
-	height:30vh;
-	background-color:#132959;
-	margin-left:-8px;
-	margin-right:-8px;
-}
+
 
 
 #ici {
 	color:white;
 	text-decoration:none;
 }
-#attention {
-	font-size:20px;
-	color :red;
-	animation-duration: 3s;
-	animation-iteration-count:infinite;
-	animation-name:pop;
-}
+
 
 p {
 	color : #5EB6DD;
+	font-size:22 px;
 }
 
 #cv {
@@ -41,19 +27,3 @@ p {
 	width:130px;
 }
 
-@keyframes pop {
-	
-	0% {
-		color:red;
-		
-	}
-	50% {
-		color :#132959;
-		
-	}
-	
-	100% {
-		color :red;
-		
-	}
-}
