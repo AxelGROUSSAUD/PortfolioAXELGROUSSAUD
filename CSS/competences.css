@@ -1,37 +1,24 @@
-.listesousmenu{
-    display: inline;
-    list-style: none;
-    margin-right: 6px;
-     
-}
-.sous-onglet{
-     height:30px;
-	 border:none;
-     width:100%;
-     margin-right: -4px;
-	 background-color:#000000;
-	 color:#ffffff;
-}
-
-
-.partiepages{
-    display: inline-block;
-    width:36%;
-    margin-left: -40px;
+#competence-gen{
+    height : 90vh;
+    text-align: center;
+   
     
 }
 
-#sousmenu{
-    
-    background-color: black;
-    margin-left: -8px;
-    margin-right: -8px;
-    cursor: default;
+#competence-dev{
+    height : 90vh;
+    text-align: center;
     
 }
 
-.listesousmenu :hover {
-	background-color:#ffffff;
-	color:#000000;
-	
+#competence-res{
+    height : 90vh;
+    text-align: center;
+    
+}
+
+
+#espace{
+    height: 30px;
+    
 }
