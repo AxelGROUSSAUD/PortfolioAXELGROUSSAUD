@@ -11,7 +11,15 @@
 
 }
 
-hr{
-    
-    
+#choix {
+    width:100%;
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
 }
+
+#blank {
+    width: 60px;
+    background-color: white;
+}
+
