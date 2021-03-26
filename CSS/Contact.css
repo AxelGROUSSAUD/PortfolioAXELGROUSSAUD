@@ -1,21 +1,32 @@
 
 
 #espace{
-    height: 30px;
+    height: 55px;
     
 }
 
-.contact{
-    height:45vh;
-    width: 100%;
-
+#contact{
+    
+    height:90vh;
+    width:100%;
+    background-color: #FC7F3C;
+    margin-left: -8px;
+    margin-right: -8px;
+    
 }
+
+#top {
+    
+    text-align: center;
+    
+}
+
+
 
 #choix {
     width:100%;
     background-color: black;
-    margin-left: -8px;
-    margin-right: -8px;
+    
 }
 
 #blank {
@@ -23,3 +34,6 @@
     background-color: white;
 }
 
+p {
+    vertical-align: center;
+}
