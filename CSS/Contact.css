@@ -5,20 +5,12 @@
     
 }
 
-#contact{
-    
-    height:90vh;
-    width:100%;
-    background-color: #FC7F3C;
-    margin-left: -8px;
-    margin-right: -8px;
-    
-}
+
 
 #top {
     
     text-align: center;
-    
+    border: 5px solid black;
 }
 
 
@@ -36,4 +28,9 @@
 
 p {
     vertical-align: center;
+}
+
+body{
+    margin:0px;
+    padding:0px;
 }
