@@ -1,9 +1,9 @@
 #bienvenue {
-	height: 100vh;
+	
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	background-color: #132959;
+	
 	margin-left: -8px;
 	margin-right: -8px;
 	margin-bottom: -8px;
@@ -13,18 +13,58 @@
 
 
 #ici {
-	color:white;
+	
 	text-decoration:none;
 }
 
 
 p {
-	color : #5EB6DD;
+	
 	font-size:22 px;
 }
 
 #cv {
 	height: 40px;
 	width:130px;
+	background-color: black;
+	color:white;
+	border:none;
+	
+}
+
+#accueil {
+	flex-grow: 3;
+	padding-top:10%;
+}
+
+.green {
+	background-color: #84D41D;
+	flex-grow: 3;
+
+}
+
+section {
+	height: 90vh;
+	margin-top:-8px;
+}
+
+img {
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0,0,0, 0.8);
+   -webkit-box-shadow: 0 0 15px rgba(0,0,0, 0.8);
+   -moz-box-shadow: 0 0 8px rgba(0,0,0, 0.8);
+
+}
+
+#perso {
+	text-align : justify;
+	margin-left:25%;
+	margin-right:25%;
+	height:80vh;
+	align-items:center;
+	display :flex;
+	color:black;
+	background-image: url("");
+	
 }
 

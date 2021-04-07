@@ -1,7 +1,7 @@
 #competence-gen{
     height : 90vh;
     text-align: center;
-    background-color: rgb(59, 126, 59);
+    
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -22px;
@@ -10,7 +10,7 @@
 #competence-dev{
     height : 90vh;
     text-align: center;
-    background-color: green;
+    
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -22px;
@@ -19,7 +19,7 @@
 #competence-res{
     height : 90vh;
     text-align: center;
-    background-color:green;
+    
     margin-left: -8px;
     margin-right: -8px;
     
@@ -38,10 +38,19 @@ table {
     
 }
 
-
+.ligne {
+	height :150px;
+	
+}
+.tab {
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	border-collapse: collapse;
+}
 
 #espace{
-    height: 30px;
+    height: 65px;
     
 }
 
