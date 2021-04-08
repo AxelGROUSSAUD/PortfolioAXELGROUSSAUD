@@ -2,14 +2,14 @@
     margin-left:-8px;
 	margin-right:-8px;
 	margin-bottom: -8px;
-	background-color: #FC7F3C;
+	background-color: #84D41D;
 	
 }
 
 #description {
 	justify-content: center;
-	margin-left:25%;
-	margin-right:25%;
+	width:65%;
+	margin:auto;
 	height:100vh;
 	align-items:center;
 	display :flex;
@@ -26,5 +26,18 @@
 	align-items:center;
 	display :flex;
 	color:black;
+}
+
+body {
+	font-family: Reem Kufi;
+}
+
+#white {
+	background-color: white;
+	
+}
+
+#espace {
+	height: 55px;;
 }
 

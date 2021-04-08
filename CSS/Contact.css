@@ -11,7 +11,7 @@
 	display: flex;
     height: 256px;
     
-    background-color: #FC7F3C;
+    background-color: #84D41D;
 }
 
 #mail {
@@ -22,7 +22,7 @@
 	display: flex;
     height: 256px;
     
-    background-color: #FC7F3C;
+    background-color: #84D41D;
 }
 
 
@@ -39,9 +39,7 @@
     background-color: white;
 }
 
-p {
-    color:rgb(160, 0, 0);
-}
+
 
 
 
@@ -51,5 +49,10 @@ p {
 
 a {
     text-decoration: none;
-    color: rgb(238, 255, 0);
+    
+}
+
+.white {
+    background-color: white;
+    
 }

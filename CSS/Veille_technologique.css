@@ -16,12 +16,13 @@ hr {
 
 .link {
 	text-decoration: none;
+	color:white;
 }
 
 .cell {
 	width:50%;
-	background-color: #132959;
-	color:white;
+	background-color: white;
+	
 }
 
 .tab {
@@ -35,10 +36,13 @@ hr {
 	height:35px;
 	width: 130px;
 	margin-top: 3px;
+	background-color: black;
+	
+	border:none;
 }
 
 body {
-	background-color: #5EB6DD;
+	background-color: #84D41D;
 }
 
 #bottom {

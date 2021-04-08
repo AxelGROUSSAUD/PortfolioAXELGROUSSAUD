@@ -11,6 +11,9 @@
 	margin-left:25%;
 	margin-right:25%;
 	border-collapse: collapse;
+	box-shadow: 0 0 15px rgba(0,0,0, 0.8);
+   -webkit-box-shadow: 0 0 15px rgba(0,0,0, 0.8);
+   -moz-box-shadow: 0 0 8px rgba(0,0,0, 0.8);
 }
 hr {
 	margin-left:25%;
@@ -23,14 +26,18 @@ hr {
 	height:35px;
 	width: 130px;
 	margin-top: 3px;
+	background-color: black;
+	
+	border:none;
 }
 
 .link {
 	text-decoration: none;
+	color:white;
 }
 
 body {
-	background-color: #853894;
+	background-color: #84D41D;
 }
 .cell {
 width:50%;
@@ -48,7 +55,7 @@ background-color: white;
 	margin-left:-8px;
 	margin-right:-8px;
 	margin-bottom:-20px;
-	background-color:gold;
+	
     margin-top: 10px;
 	
 }
